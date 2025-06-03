@@ -1,6 +1,13 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  /* changes display mode to flexbox */
+  display: flex;
+  /* aligns logo and menus center with space in between */
+  justify-content: space-between;
+  align-items: center;
+  /* adds space between menus and the edge of the header */
+  padding: 8px
 }
 
 .logo {
@@ -14,6 +21,13 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  /* changes display mode to flexbox - creates rows */
+  display: flex;
+  /* deals with basic padding/margin imbalance coming from UL */
+  margin: 0px;
+  padding: 0px;
+  /* gap between menus */
+  gap: 8px
 }
 
 a {
