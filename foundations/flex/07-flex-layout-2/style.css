@@ -23,9 +23,19 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  min-width: 300px;
   background: royalblue;
   box-sizing: border-box;
+}
+
+a{
+ text-decoration: none;
+ color: white;
+ font-size: 24px;
+}
+
+ul{
+  list-style-type: none;
 }
 
 .cards {
