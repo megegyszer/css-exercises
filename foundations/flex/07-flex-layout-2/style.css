@@ -43,12 +43,18 @@ ul{
 
 .cards {
   padding: 48px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 200px;
+  height: 250px;
+  padding: 15px;
 }
 
 .footer {
